@@ -19,4 +19,8 @@ public double getY() {
 	return y;
 }
 
+public double distanceTo (Point other) {
+	double distance = Math.sqrt(Math.pow(other.getX() - getX(), 2) + Math.pow(other.getY() - getY(), 2));
+	return distance;
+}
 }
