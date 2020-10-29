@@ -38,5 +38,17 @@ public static void main(String[] args) {
 	System.out.println(T1.getArea());
 	//2
 	System.out.println(T2.getArea());
+	//weird number close to 7
+	Triangle T3 = new Triangle (1, 1, -5, -15, -7, -18);
+	System.out.println(T3.getArea());
+
+	System.out.println("\n" + "Classify");
+	//scalene
+	System.out.println(T1.classify());
+	//isosceles
+	System.out.println(T2.classify());
+	//equilateral
+	Triangle T4 = new Triangle (0, 0, 2, 0, 1, Math.sqrt(3));
+	System.out.println(T4.classify());
 }
 }
