@@ -13,5 +13,11 @@ public static void main(String[] args) {
 	System.out.println("\n" + "Distance");
 	// 5
 	System.out.println(P1.distanceTo(P2));
+
+	System.out.println("\n" + "Same coordinates?");
+	//false
+	System.out.println(P1.equals(P2));
+	//true
+	System.out.println(P2.equals(P3));
 }
 }
