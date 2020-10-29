@@ -27,4 +27,17 @@ public double getArea() {
 	double area = Math.sqrt(S * (S - v1.distanceTo(v2)) * (S - v2.distanceTo(v3)) * (S - v3.distanceTo(v1)));
 	return area;
 }
+
+public String classify() {
+	double a = (double) Math.round(v1.distanceTo(v2) * 10000) / 10000;
+	double b = (double) Math.round(v2.distanceTo(v3) * 10000) / 10000;
+	double c = (double) Math.round(v3.distanceTo(v1) * 10000) / 10000;
+	if (a == b && b == c) {
+		return "equilateral";
+	}
+	else if (a == b || b == c || a == c) {
+		return "isosceles";
+	}
+	return "scalene";
+}
 }
