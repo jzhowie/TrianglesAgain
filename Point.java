@@ -23,4 +23,11 @@ public double distanceTo (Point other) {
 	double distance = Math.sqrt(Math.pow(other.getX() - getX(), 2) + Math.pow(other.getY() - getY(), 2));
 	return distance;
 }
+
+public boolean equals (Point other) {
+	if (other.getX() == getX() && other.getY() == getY()) {
+		return true;
+	}
+	return false;
+}
 }
