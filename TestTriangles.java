@@ -19,5 +19,10 @@ public static void main(String[] args) {
 	System.out.println(P1.equals(P2));
 	//true
 	System.out.println(P2.equals(P3));
+
+	System.out.println("\n" + "Triangles!");
+	Point P4 = new Point (5, 4);
+	Triangle T1 = new Triangle (P1, P2, P4);
+	Triangle T2 = new Triangle (0, 0, 1, 2, 2, 0);
 }
 }
