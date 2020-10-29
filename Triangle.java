@@ -17,4 +17,8 @@ public String toString() {
 	String tri = "v1(" + v1.getX() + ", " + v1.getY() + ") " + "v2(" + v2.getX() + ", " + v2.getY() + ") " + "v3(" + v3.getX() + ", " + v3.getY();
 	return tri + ")";
 }
+
+public double getPerimeter() {
+	return v1.distanceTo(v2) + v2.distanceTo(v3) + v3.distanceTo(v1);
+}
 }
