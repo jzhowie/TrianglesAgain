@@ -28,7 +28,15 @@ public static void main(String[] args) {
 	System.out.println(T2);
 
 	System.out.println("\n" + "Perimeter");
+	//12
 	System.out.println(T1.getPerimeter());
+	//some irrational number
 	System.out.println(T2.getPerimeter());
+
+	System.out.println("\n" + "Area");
+	//6
+	System.out.println(T1.getArea());
+	//2
+	System.out.println(T2.getArea());
 }
 }
