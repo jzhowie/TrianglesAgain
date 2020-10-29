@@ -50,5 +50,17 @@ public static void main(String[] args) {
 	//equilateral
 	Triangle T4 = new Triangle (0, 0, 2, 0, 1, Math.sqrt(3));
 	System.out.println(T4.classify());
+
+	System.out.println("\n" + "Mutating points");
+	System.out.println("Before");
+	System.out.println(T4.classify());
+	System.out.println(T4.getArea());
+	System.out.println(T4.getPerimeter());
+
+	System.out.println("\n" + "After");
+	T4.setVertex(1, P4);
+	System.out.println(T4.classify());
+	System.out.println(T4.getArea());
+	System.out.println(T4.getPerimeter());
 }
 }
