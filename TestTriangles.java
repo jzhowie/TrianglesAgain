@@ -24,5 +24,7 @@ public static void main(String[] args) {
 	Point P4 = new Point (5, 4);
 	Triangle T1 = new Triangle (P1, P2, P4);
 	Triangle T2 = new Triangle (0, 0, 1, 2, 2, 0);
+	System.out.println(T1);
+	System.out.println(T2);
 }
 }
