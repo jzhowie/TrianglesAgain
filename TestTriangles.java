@@ -9,5 +9,9 @@ public static void main(String[] args) {
 	//(1, 4)
 	System.out.println(P3.getX());
 	System.out.println(P3.getY());
+
+	System.out.println("\n" + "Distance");
+	// 5
+	System.out.println(P1.distanceTo(P2));
 }
 }
