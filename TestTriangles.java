@@ -26,5 +26,9 @@ public static void main(String[] args) {
 	Triangle T2 = new Triangle (0, 0, 1, 2, 2, 0);
 	System.out.println(T1);
 	System.out.println(T2);
+
+	System.out.println("\n" + "Perimeter");
+	System.out.println(T1.getPerimeter());
+	System.out.println(T2.getPerimeter());
 }
 }
