@@ -25,7 +25,7 @@ public double distanceTo (Point other) {
 }
 
 public boolean equals (Point other) {
-	if (other.getX() == getX() && other.getY() == getY()) {
+	if (other != null && other.getX() == getX() && other.getY() == getY()) {
 		return true;
 	}
 	return false;
